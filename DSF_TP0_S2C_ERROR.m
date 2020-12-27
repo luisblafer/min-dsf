@@ -1,0 +1,27 @@
+%% COMPARACION DE ERRORES DE MATLAB PARA METODOS DE PASO FIJO
+% SE CARGAN LAS MATRICES EXPORTADAS POR LOS OTRO METODOS Y SE
+% EJECUTA UNA EXPORTACION ORDENADA A UN ARCHIVO .CSV CON LAS COMPARATIVA
+% DE LOS ERRORES DE LOS DIFERENTES METODOS
+
+
+init
+
+printEps = false;
+
+% CARGAMOS LAS MATRICES CON LOS RESULTADOS
+load euler.mat
+load heun.mat
+load backward-euler.mat
+
+% ARMAMOS UN ARREGLO DE CELDAS CON LOS ELEMENTOS
+C(1,1:4) = cellEulerError;
+C(2,1:4) = cellHeunError;
+C(3,1:4) = cellBackwardEulerError;
+
+% CREAMOS ESTRUCTURA TABULAR PARA EXPORTACION
+T = cell2table(C,...
+    'VariableNames',{'Method' 'H1' 'H2' 'H3'})
+
+% EXPORTAMOS EL ARCHIVO EN FORMATO .CSV
+writetable(T,'output/errorTable.csv','Delimiter',',')
+

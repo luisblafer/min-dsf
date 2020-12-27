@@ -14,8 +14,8 @@ Repositorio con el código fuente del proyecto en Matlab y Simulink para el prá
 
 2. Ejecutar en Matlab los scripts que resuelven los ejercicios.  
 
----  
 
+## Detalle de Scripts
 <!-- MATLAB -->
 ### Simulaciones en Matlab
 

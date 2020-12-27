@@ -11,3 +11,4 @@ clc
 addpath('scripts')
 addpath('sfun')
 addpath('cfun')
+addpath('input')

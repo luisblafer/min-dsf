@@ -21,7 +21,7 @@ Repositorio con el código fuente del proyecto en Matlab y Simulink para el prá
 
 ### Métodos de Paso Fijo
 
-* DSF_TP0_S21_EULER - Simulación circuito RL con Método de Euler.
+* `DSF_TP0_S21_EULER` - Simulación circuito RL con Método de Euler.
 * DSF_TP0_S22_HEUN - Simulación circuito RL con Método de Heun.
 * DSF_TP0_S23_BACK - Simulación circuito RL con Método de Backward Euler.
 

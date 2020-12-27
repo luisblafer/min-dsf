@@ -12,7 +12,7 @@ Repositorio con el código fuente del proyecto en Matlab y Simulink para el prá
    git clone https://github.com/luisblafer/min-dsf.git
    ```
 
-2. Ejecutar en Matlab los scripts que resuelven los ejercicios.  
+2. Ejecutar en Matlab el script del ejercicio que se desee utilizar. 
 
 
 ## Detalle de Scripts

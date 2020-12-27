@@ -21,18 +21,18 @@ Repositorio con el código fuente del proyecto en Matlab y Simulink para el prá
 
 #### Métodos de Paso Fijo
 
-* `DSF_TP0_S21_EULER` - Simulación circuito RL con Método de Euler.
-* `DSF_TP0_S22_HEUN` - Simulación circuito RL con Método de Heun.
-* `DSF_TP0_S23_BACK` - Simulación circuito RL con Método de Backward Euler.
+* `DSF_TP0_S21_EULER` - Simulación del circuito RL con Método de Euler.
+* `DSF_TP0_S22_HEUN` - Simulación del circuito RL con Método de Heun.
+* `DSF_TP0_S23_BACK` - Simulación del circuito RL con Método de Backward Euler.
 
 ##### Extra
 
-* `DSF_TP0_S2C_ERROR` - Comparación de errores de los métodos
+* `DSF_TP0_S2C_ERROR` - Comparación de errores entre los Métodos.
 
 
 #### Métodos de Paso Fijo Generalizados
 
-* `DSF_TP0_S24` - Simulación del circuito RL empleando los métodos de Euler y Heun.
+* `DSF_TP0_S24` - Simulación del circuito RL empleando los Métodos de Euler y Heun.
 
 
 <!-- SIMULINK -->
@@ -40,10 +40,10 @@ Repositorio con el código fuente del proyecto en Matlab y Simulink para el prá
 
 #### Péndulo con Fricción
 
-* `DSF_TP0_S31_FIXED` - Simulación del péndulo empleando los métodos de Euler y Heun.
+* `DSF_TP0_S31_FIXED` - Simulación del péndulo empleando los Métodos de Euler y Heun.
 * `DSF_TP0_S32_ODE45` - Simulación del péndulo con el Método de Dormand-Prince (ode45).
 * `DSF_TP0_S32_ODE45_DECIMADO` - Simulación del péndulo con el Método de Dormand-Prince (ode45) | _Refinamiento 1:3_.
-* `DSF_TP0_S32_ODE15s` - Simulación del péndulo con el Método de NDF (ode15s).
+* `DSF_TP0_S32_ODE15s` - Simulación del péndulo con el Método NDF (ode15s).
 
 
 #### Circuito RLC Stiff
